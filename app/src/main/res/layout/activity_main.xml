@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+    android:layout_marginVertical="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.android.attendance1.MainActivity">
+
+    <TextView
+        android:id="@+id/display_id"
+        style="@style/TextStyle" />
+
+    <TextView
+        android:id="@+id/status_of_app"
+        style="@style/TextStyle"/>
+
+    <Button
+        android:id="@+id/locate_button"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_margin="@dimen/margin_of_view"
+        android:layout_gravity="center"
+        android:text="Locate Me"
+        android:visibility="invisible"/>
+
+</LinearLayout>

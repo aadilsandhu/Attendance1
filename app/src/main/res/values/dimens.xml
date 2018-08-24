@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Height of items-->
+    <dimen name="item_height">88dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Margin of View-->
+    <dimen name="margin_of_view">16dp</dimen>
+
+    <!-- Text Size of Activity -->
+    <dimen name="activity_text_size">18sp</dimen>
+
+    <!-- Size of Button -->
+    <dimen name="button_width">128dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+
+
+</resources>

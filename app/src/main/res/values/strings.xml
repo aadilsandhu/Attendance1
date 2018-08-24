@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Attendance</string>
+
+    <!--User Preference Activity Attributes
+    Title of Activity-->
+    <string name="user_preference_app_title">App is being used for the first time, ID Required!</string>
+
+
+</resources>

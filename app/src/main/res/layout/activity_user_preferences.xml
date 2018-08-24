@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+    android:layout_marginVertical="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.attendance1.UserPreferencesActivity"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextStyle"
+        android:gravity="center"
+        android:text="@string/user_preference_app_title"/>
+
+
+    <AutoCompleteTextView
+        style="@style/TextStyle"
+        android:id="@+id/list_of_employees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center"
+        android:text="Save"/>
+
+</LinearLayout>
